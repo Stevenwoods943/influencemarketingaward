@@ -1,0 +1,262 @@
+* {
+  padding: 0px;
+  margin: opx;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+main {
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+select#language {
+  display: none;
+}
+i.fa-brands{
+  display: none;
+}
+div.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  background-color: #ffffff;
+  border: 1px solid #d6cdcd;
+  border-radius: 5px;
+}
+div.logo {
+  cursor: pointer;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+div.logo img {
+  width: auto;
+  height: auto;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input {
+  outline: none;
+  border: none;
+  background-color: #fafafa;
+  font-size: 12px;
+  font-weight: 400;
+  width: 240px;
+}
+button {
+  border-radius: 8px;
+  width: 100%;
+  outline: none;
+  overflow: visible;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  vertical-align: baseline;
+  margin-top: 10px;
+  background-color: #58a5ec;
+  color: #fff;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+form div.input {
+  width: max-content;
+  height: auto;
+  background-color: #fafafa;
+  margin: 3px 0px;
+  border: 1px solid #d6cdcd;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 3px;
+}
+div.input span {
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 550;
+  margin-right: 10px;
+  color: #413e3e;
+  cursor: pointer;
+}
+div.opt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+div.opt hr {
+  width: 100%;
+  color: #d6cdcd;
+  font-size: 10px;
+  font-weight: 300;
+}
+div.opt span {
+  text-transform: uppercase;
+  margin: 0px 5px;
+  color: #737373;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+}
+div.container-form-login a {
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 15px 0px;
+  width: 100%;
+}
+div.container-form-login a i.fa {
+  font-size: 1.1rem;
+}
+div.container-form-login a span {
+  font-weight: 600;
+  font-size: 14px;
+  color: #385185;
+}
+div p a {
+  color: #5798f6;
+  margin: 21px 0px 0px;
+  font-weight: 600;
+}
+div p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+div.container-download {
+  display: block;
+}
+div.download-btn {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+div.download-btn img {
+  width: 50%;
+  height: 40px;
+  margin-left: 10px;
+}
+select {
+  outline: none;
+  border: none;
+}
+footer {
+  font-size: 12px;
+  font-weight: 400;
+  word-spacing: normal;
+  letter-spacing: normal;
+  margin-top: 80px;
+}
+footer div.main {
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+}
+footer div.main span {
+  text-transform: capitalize;
+  margin: 1px 5px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #a09b9b;
+}
+footer div.main span a {
+  color: #a09b9b;
+  font-size: 12px;
+  font-weight: 400;
+  word-spacing: 2px;
+}
+footer div.main span a:hover {
+  color: #646060;
+}
+footer div.sub-main {
+  text-align: center;
+}
+select {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #737373;
+}
+
+@media (max-width: 400px) {
+  select#language {
+    display: inline;
+  }
+  div.container {
+    border: none;
+    width: auto;
+  }
+  div.logo {
+    cursor: pointer;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+  }
+
+  main div.container-form-login {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main a.facetime {
+    background-color: #5798f6;
+    border-radius: 4px;
+    padding: 5px 0px;
+  }
+  input {
+    width: 100%;
+  }
+  div.input {
+    width: fit-content;
+  }
+  div.container-form-login a.facetime span {
+    color: #ffffff;
+  }
+  div.container-form-login a.fpass {
+    display: none;
+  }
+  div.container-download {
+    display: none;
+    font-size: auto;
+    font-weight: 400;
+  }
+  select {
+    margin-bottom: 20px;
+    border: none;
+  }
+  select option {
+    border: 0px;
+  }
+  i.fa-brands{
+   display: inline;
+    background-color: #fff;
+    color: #58a5ec;
+    font-size: 1rem;
+    font-weight: 600;
+ }
+i.fa{
+  display: none;
+  font-size: auto;
+  font-weight: 400;
+}
+  footer {
+    display: none;
+  }
+}

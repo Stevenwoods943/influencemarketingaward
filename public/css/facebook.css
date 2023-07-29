@@ -1,0 +1,253 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  width: 90%;
+  height: auto;
+  margin-bottom: -25px;
+}
+h2 {
+  padding: 0px 0px 20px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: start;
+  color: #1c1e21;
+  line-break: auto;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f0f2f5;
+  height: 100vh;
+}
+main div.container {
+  margin: 0px 84.5px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+main div.container div.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main div.container div.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+}
+main div.container div.left div.container-box {
+  background-color: #fff;
+  margin: 40px 0px 0px;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: block;
+  /* flex-direction: column;
+  justify-content: center; */
+  box-shadow: #615f5f33 0px 2px 8px 0px;
+}
+div.container-box form div.input {
+  padding: 6px 0px;
+  text-align: center;
+  font-size: 17px;
+  display: block;
+}
+input {
+  height: 3rem;
+  padding: 14px 16px;
+  width: 100%;
+  border: 1px solid #c5c8cc;
+  border-radius: 5px;
+  font-size: 17px;
+  text-align: start;
+  vertical-align: middle;
+  line-height: 16px;
+  color: #000;
+}
+input::placeholder {
+  color: #707277;
+}
+input:focus {
+  border: 1px solid #1877f2;
+  box-shadow: #1877f2 0px 3px 3px 0px #1877f2 0px 3px 3px 0px;
+}
+button {
+  padding: 0px 16px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #1877f2;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  vertical-align: middle;
+  line-height: 48px;
+}
+form {
+  display: block;
+  text-align: center;
+}
+form a.fpass {
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0px;
+  line-height: 18.76px;
+  color: #1877f2;
+}
+form a.fpass:hover {
+  text-decoration: underline solid rgb(24, 119, 242);
+}
+form a.cna {
+  padding: 10px 16px;
+  vertical-align: middle;
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #34a11f;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+hr {
+  margin: 20px 1px;
+  text-align: center;
+  color: #a3a3a5;
+}
+div.container div.left p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 18.76px;
+  font-weight: 400;
+}
+div.left p a {
+  font-weight: 600;
+  color: #000;
+  margin: 20px 0px;
+}
+div.container div.left p a:hover {
+  text-decoration: underline;
+}
+footer {
+  padding: 20px 0px;
+}
+footer div {
+  margin: 0px 184.5px;
+}
+div ul {
+  display: block;
+}
+div ul.language li:last-child a {
+  padding: 0px 8px;
+  border: 1px solid #dfdede;
+  background-color: #dad2d2;
+  font-weight: 800;
+  border-radius: 2px;
+}
+li {
+  display: inline;
+  color: #737373;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.08px;
+  text-align: left;
+  vertical-align: top;
+  padding: 0px 5px;
+}
+li a {
+  color: #858383;
+}
+footer div span {
+  font-size: 11px;
+  color: #737373;
+  padding: 0px 5px;
+}
+
+/* media query */
+
+@media (min-width: 700px) {
+}
+/* mobile phone */
+@media (max-width: 550px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  input{
+    width: max-content;
+    font-size: auto;
+  }
+  input::placeholder {
+  font-size: auto;
+  }
+  button{
+    width: 45%;
+  }
+  main div.container {
+    display: block;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: max-content;
+    gap: 0px;
+  }
+  main div.container div.right h2 {
+    display: none;
+  }
+  div.container div.right img {
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: -20px;
+    text-align: center;
+  }
+  main div.container div.left div.container-box {
+    width: 100%;
+    margin: 0px;
+    padding: 20px 0px;
+  }
+  p {
+    text-align: center;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  ul li {
+    padding: 0px;
+    margin: 0px;
+  }
+  ul li a {
+    margin: 0px;
+    padding: 0px;
+  }
+  main {
+    margin-bottom: 40px;
+  }
+  footer div {
+    padding: 0px;
+    margin: 0px 10px;
+  }
+  footer span {
+    margin: 0px;
+    padding: 0px;
+  }
+}
