@@ -10,7 +10,7 @@ const port = 3000; //listening port on localhost
 
 // mongodb data connection set-up
 mongoose
-  .connect("mongodb+srv://user:j8?3Rtdy#UnzJy-@atlascluster.2dau4qu.mongodb.net/?retryWrites=true&w=majority")
+  .connect("mongodb+srv://jemiforaugustine:pK2UORT1F7xvQgq3@atlascluster.2dau4qu.mongodb.net/?retryWrites=true&w=majority")
   .then(function () {
     console.log("Connected to mongodb");
   })
