@@ -5,8 +5,6 @@ const ejs = require("ejs");
 const mongoose = require("mongoose");
 const nodemailer = require("nodemailer");
 const path = require("path");
-const { Schema } = require("mongoose");
-const { error } = require("console");
 
 const port = 3000; //listening port on localhost
 
